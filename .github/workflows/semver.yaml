@@ -1,4 +1,4 @@
-name: Deploy
+name: Create Semver Release 
 
 on:
   workflow_dispatch:
@@ -17,6 +17,8 @@ jobs:
         with:
           token: ${{ github.token }}
           branch: main
+          makeLatest: true
+          fallbackTag: "0.0.0.0"
 
       - name: Create Release
         uses: ncipollo/release-action@v1.12.0
