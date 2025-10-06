@@ -1,2 +1,2 @@
 # ghaction-sender
-Just trying out some stuff
+Simple repository to test sending events between different repositories for GitHub Workflows
