@@ -17,7 +17,6 @@ jobs:
         with:
           token: ${{ github.token }}
           branch: main
-          makeLatest: true
           fallbackTag: "0.0.0.0"
 
       - name: Create Release
